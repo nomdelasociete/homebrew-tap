@@ -2,8 +2,7 @@ cask "skilli" do
   version "0.1.0,702"
   sha256 "b624307c03c6ab4e24d7b68b12dc5768eb26cad8087b38f8721806753f75c85e"
 
-  url "https://github.com/nomdelasociete/skilli/releases/download/v#{version.csv.first}-#{version.csv.second}/Skilli-#{version.csv.first}-#{version.csv.second}.dmg",
-      verified: "github.com/nomdelasociete/skilli/"
+  url "https://github.com/nomdelasociete/skilli/releases/download/v#{version.csv.first}-#{version.csv.second}/Skilli-#{version.csv.first}-#{version.csv.second}.dmg"
   name "skil.li"
   desc "Keyboard-first launcher and assistant using your own AI"
   homepage "https://skil.li/"
@@ -14,7 +13,7 @@ cask "skilli" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Skilli.app"
 
