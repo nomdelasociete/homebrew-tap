@@ -1,8 +1,8 @@
 cask "skilli" do
-  version "0.1.0,702"
-  sha256 "b624307c03c6ab4e24d7b68b12dc5768eb26cad8087b38f8721806753f75c85e"
+  version "0.1.1,719"
+  sha256 "cbcaacf846138a8d3945ff8ead8bbc340215cad9ce362623b9f03e326ec9fa33"
 
-  url "https://github.com/nomdelasociete/skilli/releases/download/v#{version.csv.first}-#{version.csv.second}/Skilli-#{version.csv.first}-#{version.csv.second}.dmg"
+  url "https://github.com/nomdelasociete/skilli/releases/download/v#{version.csv.first}-#{version.csv.second}/skil.li-#{version.csv.first}-#{version.csv.second}.dmg"
   name "skil.li"
   desc "Keyboard-first launcher and assistant using your own AI"
   homepage "https://skil.li/"
