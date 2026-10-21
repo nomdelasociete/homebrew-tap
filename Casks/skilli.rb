@@ -1,6 +1,6 @@
 cask "skilli" do
-  version "0.2.1,793"
-  sha256 "c96ea421198f8e04c389543378ef0f87813ea452f648e1b50c18ec77185cb2ff"
+  version "0.2.2,923"
+  sha256 "f658b823789e057728c618777d324ba200e9590cb35907231f2779c874b4ac92"
 
   url "https://github.com/nomdelasociete/skilli/releases/download/v#{version.csv.first}-#{version.csv.second}/skil.li-#{version.csv.first}-#{version.csv.second}.dmg"
   name "skil.li"
