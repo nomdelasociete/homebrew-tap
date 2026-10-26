@@ -1,6 +1,6 @@
 cask "git-island" do
-  version "0.13"
-  sha256 "515d2c4bf2a234bd911fcc90de1efe6381286ded361b58125621947f6c4b6916"
+  version "0.14"
+  sha256 "6c71c6d61bc38b58a40425911d6364b9cc09d3ddc4db3bd527b2fcefeabf4ed8"
 
   url "https://github.com/nomdelasociete/git-island/releases/download/v#{version}/Git-Island-#{version}.dmg"
   name "Git Island"
