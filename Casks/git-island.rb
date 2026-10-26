@@ -8,7 +8,6 @@ cask "git-island" do
   homepage "https://gitis.land/"
 
   auto_updates true
-
   depends_on macos: :tahoe
 
   app "Git Island.app"
